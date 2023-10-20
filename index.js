@@ -8,12 +8,9 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-// brandShop
-// hbphNzKLwmKxUyAu
 
 
 const uri = "mongodb+srv://brandShop:hbphNzKLwmKxUyAu@cluster0.t7f6zl5.mongodb.net/?retryWrites=true&w=majority";
-// const uri = "mongodb://127.0.0.1:27017";
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
